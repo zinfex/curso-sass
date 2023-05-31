@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.txt-red, .txt-orange {
+  cursor: pointer;
+  font-size: 100px;
+  color: red;
+}
+.txt-red:hover, .txt-orange:hover {
+  color: black;
+}
+
+.txt-orange {
+  color: orange;
+}
+
+/*# sourceMappingURL=main.css.map */
